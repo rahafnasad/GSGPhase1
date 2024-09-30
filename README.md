@@ -18,7 +18,7 @@ This project is a simple web application that showcases a filterable list of pro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rahafnasad/GSGPhase2.git
+   git clone https://github.com/rahafnasad/GSGPhase1.git
    ```
    ### Application Screenshot
 ![111](https://github.com/user-attachments/assets/8a77a259-eb69-449e-abe7-b45b4983d5a6)

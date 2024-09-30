@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* General Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    font-family: "Roboto Slab", serif;
+
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    color: black;
+  }
+  
+  /* Filter Section */
+  #filter-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .filter-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #520314;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    width: 110px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .filter-btn:hover {
+    background-color: #77051e;
+  }
+  
+  /* Product List Layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #520314;
+    margin: 15px;
+    border-radius: 20px;
+  }
+  
+  /* Product Card */
+  .product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .product-card .price {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  

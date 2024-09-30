@@ -1,9 +1,9 @@
 const products = [
-    { name: "Smartphone", category: "Electronics", price: 299.99 },
-    { name: "Laptop", category: "Electronics", price: 799.99 },
-    { name: "T-Shirt", category: "Clothing", price: 19.99 },
-    { name: "Headphones", category: "Electronics", price: 49.99 },
-    { name: "Jeans", category: "Clothing", price: 39.99 }
+    { name: "Office Desk", category: "Furniture", price: 199.99 },
+    { name: "Gaming Chair", category: "Furniture", price: 129.99 },
+    { name: "Smart Watch", category: "Accessories", price: 249.99 },
+    { name: "Backpack", category: "Accessories", price: 49.99 },
+    { name: "Gel Pen", category: "Accessories", price: 3.99 }
   ];
   
   const productList = document.getElementById("product-list");
